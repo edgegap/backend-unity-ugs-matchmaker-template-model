@@ -12,15 +12,15 @@ assignees: ''
 ## Provider Integration
 <!-- Which provider integration is affected? -->
 - [ ] GameLift
-- [ ] Multiplay
+- [ ] Multiplay by Rocket Science
 - [ ] PlayFab
 - [ ] Other (please specify)
 
 ## Steps to Reproduce
 <!-- Provide detailed steps to reproduce the issue -->
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Expected Behavior
 <!-- What did you expect to happen? -->
@@ -29,10 +29,10 @@ assignees: ''
 <!-- What actually happened? -->
 
 ## Environment
-- Unity Version: 
-- UGS CLI Version: 
-- .NET SDK Version: 
-- Operating System: 
+- Unity Version:
+- UGS CLI Version:
+- .NET SDK Version:
+- Operating System:
 
 ## Additional Context
 <!-- Add any other context, logs, or screenshots about the problem here -->
