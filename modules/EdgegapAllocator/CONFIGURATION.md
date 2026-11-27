@@ -8,7 +8,7 @@ Get started with [Edgegap's Documentation](https://docs.edgegap.com).
 
 Add these secrets in the [Unity Dashboard](https://cloud.unity.com) under **Administration** > **Secrets**:
 
-- `EDGEGAP_API_TOKEN` - Your Edgegap API token.
+- `EDGEGAP_API_TOKEN` - Your Edgegap API token, stored with the `token ` prefix (`token <your token>`). The module sends the secret value unchanged as the `Authorization` header, so a bare token is rejected with 401.
 
 Find your token in the [Edgegap Console](https://app.edgegap.com/user-settings?tab=tokens).
 
@@ -16,7 +16,7 @@ Find your token in the [Edgegap Console](https://app.edgegap.com/user-settings?t
 
 Edit `Project/EdgegapAllocator.cs` and update these constants:
 
-### ApplicationName (line 34)
+### ApplicationName (line 38)
 
 ```csharp
 private const string ApplicationName = "MyApp"; // TODO: Replace with actual application name
@@ -25,7 +25,7 @@ private const string ApplicationName = "MyApp"; // TODO: Replace with actual app
 Replace with your Edgegap application name from
 the [Applications List](https://app.edgegap.com/application-management/applications/list).
 
-### VersionName (line 35)
+### VersionName (line 39)
 
 ```csharp
 private const string VersionName = "MyVersion"; // TODO: Replace with actual version name
@@ -33,7 +33,7 @@ private const string VersionName = "MyVersion"; // TODO: Replace with actual ver
 
 Replace with your Edgegap application's version name you want to use.
 
-### PortName (line 36)
+### PortName (line 40)
 
 ```csharp
 private const string PortName = "gameport"; // TODO: Replace with actual port name
